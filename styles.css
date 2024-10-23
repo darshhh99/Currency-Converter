@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.amount input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.from, .to {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+select {
+    flex: 1;
+    padding: 10px;
+}
+
+.flag {
+    width: 40px;
+    margin-left: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.msg {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
